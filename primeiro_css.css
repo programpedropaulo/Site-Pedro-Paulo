@@ -1,0 +1,89 @@
+/* Define a fonte principal do corpo da página e ajusta o background */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes */
+    background-color: #94c9e4; /* Cor de fundo azul claro */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+/* Estiliza o cabeçalho no topo da página */
+.top-cabecario {
+    background-color: aliceblue; /* Cor de fundo clara */
+    position: fixed; /* Fixa o cabeçalho no topo da tela */
+    top: 0; /* Posiciona o cabeçalho no topo absoluto */
+    width: 100%; /* Ocupa toda a largura da tela */
+    z-index: 1; /* Coloca o cabeçalho acima de outros elementos */
+    height: 40px; /* Define a altura do cabeçalho */
+}
+
+/* Espaçamento para evitar sobreposição do cabeçalho fixo */
+main {
+    margin-top: 60px; /* Cria um espaçamento entre o cabeçalho e o conteúdo */
+    padding: 0 20px; /* Adiciona preenchimento nas laterais */
+}
+
+/* Estilos para o título principal <h1> */
+h1 {
+    color: #020000; /* Cor do título quase preto */
+    text-align: center; /* Centraliza o título */
+    margin: 20px 0; /* Espaçamento vertical adicional */
+}
+
+/* Estilos para parágrafos */
+p {
+    margin: 20px 0; /* Espaçamento vertical nos parágrafos */
+    padding-left: 20px; /* Afastamento do texto da borda esquerda */
+}
+
+/* Estilos para a lista de navegação dentro do cabeçalho */
+.top-cabecario ul {
+    list-style: none; /* Remove os marcadores da lista */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Oculta conteúdo excedente */
+    text-align: center; /* Centraliza os itens da lista */
+}
+
+/* Estilos para os links da lista */
+.top-cabecario ul li a {
+    display: inline-block; /* Exibe os links em blocos */
+    color: #0a0101; /* Cor do texto dos links */
+    text-align: center; /* Centraliza o texto */
+    padding: 14px 16px; /* Espaçamento interno */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Efeito hover nos links */
+.top-cabecario ul li a:hover {
+    background-color:#94c9e4;/* Cor de fundo ao passar o mouse */
+    transform: matrix3d(1.5);
+}
+
+/* Menu de navegação principal */
+nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Exibe os itens em linha */
+    justify-content: space-around; /* Espaça os itens uniformemente */
+    background-color: #ffffff; /* Cor de fundo branco */
+    width: 100%;
+}
+
+/* Estilos para os itens da lista de navegação */
+nav ul li {
+    flex: 1; /* Distribui os itens igualmente */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estilos para os links */
+nav ul li a {
+    color: black; /* Cor do texto dos links */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 10px 0; /* Espaçamento interno vertical */
+    display: block; /* Link ocupa toda a área do item */
+}
+
+/* Efeito hover nos links de navegação */
+nav ul li a:hover {
+    background-color: rgba(200, 75%, 75%, 1); /*
