@@ -104,7 +104,7 @@ body {
     top: 0; /* Posiciona o cabeçalho no topo absoluto */
     width: 100%; /* Ocupa toda a largura da tela */
     z-index: 1; /* Coloca o cabeçalho acima de outros elementos */
-    height: 60px; /* Define a altura do cabeçalho */
+    height: 40px; /* Define a altura do cabeçalho */
 }
 
 /* Espaçamento para evitar sobreposição do cabeçalho fixo */
@@ -146,7 +146,8 @@ p {
 
 /* Efeito hover nos links */
 .top-cabecario ul li a:hover {
-    background-color: #94c9e4; /* Cor de fundo ao passar o mouse */
+    background-color:#94c9e4;/* Cor de fundo ao passar o mouse */
+    transform: matrix3d(1.5);
 }
 
 /* Menu de navegação principal */
