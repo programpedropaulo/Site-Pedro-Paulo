@@ -1,0 +1,15 @@
+
+/* Styles for the About page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+}
+h1 {
+    color: #444;
+}
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}

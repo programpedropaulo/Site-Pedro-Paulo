@@ -1,0 +1,18 @@
+1 adicionar as redes sociais.
+    facebook, instagram, github.
+
+2 entra em contato pelo proprio site.
+
+3 links com imagem dos sites prontos.
+
+imagens da galeria, serão fotos de layouts de sites.
+
+paleta de cores.
+    #06141B - Um tom muito escuro de azul-marinho.
+    #11212D - Um tom escuro de azul acinzentado.
+    #253745 - Um tom médio de azul acinzentado.
+    #4A5C6A - Um tom mais claro de azul acinzentado.
+    #9BA8AB - Um tom claro de cinza azulado.
+    #CCD0CF - Um tom muito claro de cinza esverdeado.
+
+

@@ -21,6 +21,10 @@ main {
     padding: 0 20px; /* Adiciona preenchimento nas laterais */
 }
 
+h2 {
+     text-align: center; 
+}
+
 /* Estilos para o título principal <h1> */
 h1 {
     color: #020000; /* Cor do título quase preto */
@@ -98,3 +102,16 @@ nav ul li a:hover {
     border: 2px solid #000; /* Bordas ao redor das imagens */
     border-radius: 10px; /* Bordas arredondadas */
 }
+ 
+.circulo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #333; /* Correção do erro de digitação */
+}
+.circulo img {
+    width: 100%; /* Ajusta a largura da imagem para preencher o círculo */
+    height: auto; /* Mantém a proporção da imagem */
+}
+

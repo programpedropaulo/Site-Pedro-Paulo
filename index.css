@@ -1,0 +1,58 @@
+/* Estilo global do corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão da página */
+    background-color: #06141B; /* Cor de fundo da página */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    height: 100%; /* Define que a altura do corpo é 100% da janela */
+    scroll-behavior: smooth; /* Habilita rolagem suave */
+    padding-top: 60px; /* Adiciona espaçamento no topo para evitar sobreposição do menu */
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: auto;
+    background-color: #11212D; /* Cor de fundo do cabeçalho */
+    color: #FFF; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo do menu de navegação fixo */
+nav {
+    position: fixed; /* Fixa o menu no topo da página */
+    top: 20px;
+    width: 100%; /* Ocupa 100% da largura da tela */
+    background-color: #06141B; /* Cor de fundo do menu */
+    z-index: 1; /* Mantém o menu sobre outros elementos */
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores de lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os itens do menu */
+}
+
+nav ul li a {
+    color: white; /* Cor do texto dos links */
+    padding: 14px 20px; /* Espaçamento interno dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+nav ul li a:hover {
+    background-color: #031e2c; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo das seções da página */
+section {
+    height: 100vh; /* Cada seção ocupa 100% da altura da janela */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    color: white; /* Cor do texto */
+    font-size: 2em; /* Tamanho do texto */
+    text-align: center; /* Alinhamento do texto */
+}

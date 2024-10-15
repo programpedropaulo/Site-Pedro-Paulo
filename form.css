@@ -1,0 +1,28 @@
+
+/* Styles for the Form page */
+/* Assuming a form layout will be created */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: hsl(200, 60%, 74%); /* Cor de fundo azul claro */
+    background-color: ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
